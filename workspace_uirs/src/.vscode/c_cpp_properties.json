@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/grigorii/ROS_Works/workspace_uirs/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/grigorii/ROS_Works/workspace_uirs/src/realsense2_camera/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

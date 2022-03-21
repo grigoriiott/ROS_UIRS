@@ -1,0 +1,8 @@
+prefix=/home/grigorii/ROS_Works/workspace_uirs/devel
+
+Name: rgbd_camera
+Description: Description of rgbd_camera
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

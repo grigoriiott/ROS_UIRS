@@ -1,0 +1,6 @@
+<launch>
+    <node pkg = "pointcloud_to_laserscan" type = "pointcloud_to_laserscan_node" name = "pointcloud_to_laserscan">
+        <remap from = "cloud_in" to = "/camera/depth/points"/>
+        <remap from = "scan" to = "/camera/scan"/>
+    </node>
+<>/launch

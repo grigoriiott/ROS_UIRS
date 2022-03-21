@@ -1,0 +1,2 @@
+realsense2_camera:rgbd_camera
+-DCATKIN_DEVEL_PREFIX=/home/grigorii/ROS_Works/workspace_uirs/devel -DCMAKE_INSTALL_PREFIX=/home/grigorii/ROS_Works/workspace_uirs/install -G Unix Makefiles
