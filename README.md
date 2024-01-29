@@ -1,2 +1,12 @@
-# ROS_UIRS
-Finding an object in the frame and determining its coordinates using Intel Realsense and ROS
+# Система компьютерного зрения для мобильного робота
+
+# Задача 
+Реализовать поиск ряда объектов на изображении с RGBD камеры и определить их координаты относительно камеры/мобильной платформы
+
+# Реализация
+Для работы использовался фремворк Robot OS для реализации общения модулей между собой, в качестве камеры использовалась RGB-D камера Intel RealSense d435. 
+Для определения объектов была обучена SSD модель с помощью Tensorflow Object Detection API. 
+
+<img width="670" alt="image" src="https://github.com/grigoriiott/ROS_UIRS/assets/92350053/e22c9fe2-4b4a-4045-a020-167eec8f9a14">
+
+Выше приведен пример определения координат компьютерной мыши относительно рамки положения камеры. 
